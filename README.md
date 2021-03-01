@@ -1,1 +1,2 @@
-# position_with_float
+# CSS Layout - float and clear
+#pseudo elements and classes
