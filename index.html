@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Position with float</title>
-    <link rel="stylesheet" href="css/style.css/" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <h1 class="site-logo">mart</h1>
-        <ul class="site-menu">
+    <header class="site-header container">
+      <nav class="site-navigation clearfix">
+        <h1 class="site-logo"><a href="#">mart</a></h1>
+        <ul class="site-menu clearfix">
           <li class="site-menu-item"><a href="#">Home</a></li>
           <li class="site-menu-item"><a href="#">About Us</a></li>
           <li class="site-menu-item"><a href="#">page</a></li>
@@ -21,96 +28,112 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <h2>FEATURED PRODUCTS</h2>
-        <ul class="product-list">
+    <main class="main-content">
+      <section class="container product-section">
+        <h2 class="section">FEATURED PRODUCTS</h2>
+        <ul class="product-list clearfix">
           <li class="product-list-item">
-            <img
-              src="images/shoes.png"
-              alt="summer shoes for women"
-              width="258"
-              height="266"
-            />
-            <p>Blue Tshirt</p>
-            <p>$26</p>
+            <a class="clearfix" href="#"
+              ><img
+                src="images/shoes.png"
+                alt="summer shoes for women"
+                width="256"
+                height="282"
+              />
+              <h3>Blue Tshirt</h3>
+              <p>$26</p></a
+            >
           </li>
           <li class="product-list-item">
-            <img
-              src="images/belt.png"
-              alt="brown belt"
-              width="176"
-              height="246"
-            />
-            <p>Blue Tshirt</p>
-            <p>$26</p>
+            <a href="#"
+              ><img
+                src="images/belt.png"
+                alt="brown belt"
+                width="256"
+                height="282"
+              />
+              <h3>Blue Tshirt</h3>
+              <p>$26</p></a
+            >
           </li>
           <li class="product-list-item">
-            <img src="images/hat.png" alt="hat" width="229" height="158" />
-            <p>WOMAN shirt</p>
-            <p>$31</p>
+            <a href="#"
+              ><img src="images/hat.png" alt="hat" width="256" height="282" />
+              <h3>WOMAN shirt</h3>
+              <p>$31</p></a
+            >
           </li>
           <li class="product-list-item">
-            <img
-              src="images/blue-bag.png"
-              alt="blue bag"
-              width="240"
-              height="204"
-            />
-            <p>YELLOW Tshirt</p>
-            <p>$21</p>
+            <a href="#"
+              ><img
+                src="images/blue-bag.png"
+                alt="blue bag"
+                width="256"
+                height="282"
+              />
+              <h3>YELLOW Tshirt</h3>
+              <p>$21</p></a
+            >
           </li>
           <li class="product-list-item">
-            <img
-              src="images/bag.png"
-              alt="black lether bag"
-              width="198"
-              height="213"
-            />
-            <p>Cool lingerie</p>
-            <p>$56</p>
+            <a href="#"
+              ><img
+                src="images/bag.png"
+                alt="black lether bag"
+                width="256"
+                height="282"
+              />
+              <h3>Cool lingerie</h3>
+              <p>$56</p></a
+            >
           </li>
           <li class="product-list-item">
-            <img
-              src="images/black-belt.png"
-              alt="black belt"
-              width="256"
-              height="180"
-            />
-            <p>Blue Tshirt</p>
-            <p>$26</p>
+            <a href="#"
+              ><img
+                src="images/black-belt.png"
+                alt="black belt"
+                width="256"
+                height="282"
+              />
+              <h3>Blue Tshirt</h3>
+              <p>$26</p></a
+            >
           </li>
           <li class="product-list-item">
-            <img
-              src="images/brown-shoes.png"
-              alt="brown shoes"
-              width="196"
-              height="240"
-            />
-            <p>WOMAN shirt</p>
-            <p>$31</p>
+            <a href="#"
+              ><img
+                src="images/brown-shoes.png"
+                alt="brown shoes"
+                width="256"
+                height="282"
+              />
+              <h3>WOMAN shirt</h3>
+              <p>$31</p></a
+            >
           </li>
           <li class="product-list-item">
-            <img
-              src="images/glasses.png"
-              alt="sunglasses"
-              width="234"
-              height="208"
-            />
-            <p>YELLOW Tshirt</p>
-            <p>$21</p>
+            <a href="#"
+              ><img
+                src="images/glasses.png"
+                alt="sunglasses"
+                width="256"
+                height="282"
+              />
+              <h3>YELLOW Tshirt</h3>
+              <p>$21</p></a
+            >
           </li>
         </ul>
       </section>
-      <section>
-        <h2>LATEST NEWS</h2>
-        <ul class="news section">
+      <section class="news-section container">
+        <h2 class="section">LATEST NEWS</h2>
+        <ul class="news clearfix">
           <li class="news-section-item">
             <img
               src="images/ipad.png"
               alt="map in ipad"
-              width="353"
-              height="262"
+              width="350"
+              height="263"
             />
             <h3>
               Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
@@ -120,7 +143,7 @@
               vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
               Nam nec tellus a odio tincidunt
             </p>
-            <a href="#">Read More</a>
+            <button class="read-more" type="button">Read More</button>
           </li>
           <li class="news-section-item">
             <img
@@ -137,11 +160,11 @@
               vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
               Nam nec tellus a odio tincidunt
             </p>
-            <a href="#">Read More</a>
+            <button class="read-more" type="button">Read More</button>
           </li>
 
           <li class="news-section-item">
-            <img src="images/bus.png" alt="bus" width="350" height="265" />
+            <img src="images/bus.png" alt="bus" width="350" height="263" />
             <h3>
               Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
             </h3>
@@ -150,7 +173,7 @@
               vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
               Nam nec tellus a odio tincidunt
             </p>
-            <a href="#">Read More</a>
+            <button class="read-more" type="button">Read More</button>
           </li>
         </ul>
       </section>
